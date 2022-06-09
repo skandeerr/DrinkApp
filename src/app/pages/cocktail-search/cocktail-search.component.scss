@@ -1,0 +1,57 @@
+.titl{
+    font-size: 0.8rem;
+}
+.bg{
+    background-color: rgb(231, 229, 229);
+}
+.colonne {
+    position: relative;
+    text-align: center;
+    min-height: 200px;
+    width: 30%;
+    float: left;
+    margin: 20px;
+    
+}
+.middle {
+    transition: 1s ease;
+    opacity: 0;
+    position: absolute;
+    top: 40%;
+    left: 130%;
+    transform: translate(-50%,-50%);
+}
+a{
+    text-decoration: none;
+}
+.text {
+    position: relative;
+    background: rgb(209, 0, 0);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 16px 32px;
+}
+.colonne:hover .image{
+    opacity: 0.3;
+}
+.colonne:hover .middle {
+    opacity: 1;
+}
+.tit{
+    display: block;
+    font-size: 00.8rem;
+    color: rgb(76, 76, 253);
+    
+    margin-top: 5px;
+    width: 250%;
+}
+.image {
+    display: block;
+   
+    height: 180px;
+   width: 250%;
+    opacity: 1;
+    
+    transition: 1s ease;
+}

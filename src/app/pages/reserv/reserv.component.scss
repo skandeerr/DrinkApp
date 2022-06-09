@@ -1,0 +1,31 @@
+.section-title h2 {
+    margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #5f5950;
+}
+.section-title h2 span {
+    color: #ffb03b;
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.book-a-table .php-email-form {
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+    padding: 30px;
+    background: #fff;
+}
+button {
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    background: #ffb03b;
+    margin-top: 35px;
+}
+button:hover{
+    background: #ffa012;
+}

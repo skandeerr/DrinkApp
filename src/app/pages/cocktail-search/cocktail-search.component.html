@@ -1,0 +1,19 @@
+<div class="container p-4">
+    <div class="form-group w-100">
+        <input type="text" class="form-control "(keyup)="searchcoktail(scocktail.value)" placeholder="search" #scocktail>
+
+    </div>
+    <div class="row col-12">
+        <div class="col-3"  *ngFor="let c of cocktails">
+            <div class="colonne ca">
+              <img src="{{c.strDrinkThumb}}" class="image" width="100%">
+              <div class="middle">
+                  <a routerLink="/cocktail/details/{{c.idDrink}}" class="text">Details</a>
+              </div>
+              <div > <marquee width="250%"><h4 class="tit">{{c.strDrink}}</h4></marquee></div>
+          </div>
+          
+            </div>
+      
+    </div>
+</div>

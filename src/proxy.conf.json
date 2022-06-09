@@ -1,0 +1,10 @@
+
+{
+    "/apidemo/*": {
+      "target": "http://localhost:4200/api",
+      "secure": false,
+      "logLevel" : "debug"
+
+      
+  }
+}

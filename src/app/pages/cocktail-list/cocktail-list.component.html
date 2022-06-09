@@ -1,0 +1,19 @@
+<body class="bg ">
+  
+<div class="container bg pd">
+    <div class="row col-12 bg  ">
+    <div class="col-3 card mb-2 bg pdc"  *ngFor="let c of cocktails">
+      <div class="colonne ca ">
+        <img src="{{c.strDrinkThumb}}" class="image" width="100%">
+        <div class="middle">
+            <a routerLink="/cocktail/details/{{c.idDrink}}" class="text">Details</a>
+        </div>
+        <div>  <marquee width="250%"><h4 class="tit">{{c.strDrink}}</h4></marquee></div>
+        
+    </div>
+    
+      </div>
+      
+    </div>
+</div>
+</body>
